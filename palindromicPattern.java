@@ -1,6 +1,16 @@
 import java.util.*;
 public class palindromicPattern {
 	public static void main(String[] args) {
+		/*
+		
+Output =    1		    1
+           212
+          32123
+         4321234
+        543212345
+	   65432123456
+	   
+		*/
 		Scanner input = new Scanner(System.in);
 		int rows = input.nextInt();
 		for(int i = 1; i <= rows; i++) {
@@ -20,3 +30,4 @@ public class palindromicPattern {
 	}
 
 }
+
